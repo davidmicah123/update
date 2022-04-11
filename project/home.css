@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin-bottom: 200vh;
+}
+.navbar{
+    display: flex;
+    height: 15vh;
+    background-color: #FFFF;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.575);
+    position: fixed;
+    width: 100%;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    padding-top: 5vh;
+    padding-left: 2vw;
+}
+.navbar ul li{
+    font-size: 4vh;
+    padding-left: 2vw;
+}
+.my_library_text{
+    font-size: 7vh;
+    padding-top: 3vh;
+    margin-left: 2vw;
+    color: rgba(255, 99, 71, 0.849);
+    font-weight: 5vw;
+    font-family: ;
+}
+
+
+.hero_img{
+    width: 100%;
+    height: 75vh;
+    scroll-behavior: smooth;
+    /* position: sticky; */
+}

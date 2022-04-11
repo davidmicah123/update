@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    scroll-behavior: smooth;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-brand{
+    font-size: 5vh;
+    padding-left: 3vw;
+    padding-bottom: 2vh;
+    z-index: 2;
+    margin-right: 2vw;
+    font-weight: bolder;
+    color: #0353e7;
+}
+
+.hero_image{
+    background-image: url('images/blog2.jpg');
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+}
+.blog_header{
+    font-size: 20vh;
+    text-align: center;
+    position: absolute;
+    top: 12vh;
+    left: 38vw;
+    color: white;
+}
+.blogger{
+    font-size: 5vh;
+    text-align: center;
+}
+.blog_text{
+    position: relative;
+    top: 20vh;
+    text-align: center;
+}
+.get_started{
+    padding: 1vh;
+    color: white;
+    background-color: #0353e7;
+    border: 0;
+    border-radius: 0.2vw;
+}
+
+
+
+.btn_div{
+    display: flex;
+    justify-content: center;
+    margin-right: 3vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.all_btn{
+    padding: 1vh;
+    color: white;
+    background-color: #0353e7;
+    border: 0;
+    border-radius: 0.2em;
+    width: 7vw;
+    margin-left: 1vw;
+}
+.all_links{
+    color: white;
+}
+
+.sport_div{
+    width: 85vw;
+    margin: 0 auto;
+}
+.sport_importace_h1{
+    font-size: 7vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.sport_img{
+    width: 85vw;
+    height: 80vh;
+    transition: 1s;
+}
+.sport_div img:hover{
+    transform: scale(0.97);
+    cursor: pointer;
+}
+.main_sport_text{
+    font-size: 3vh;
+}
+.sport_sub_headings{
+    font-size: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.all_links:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 80vh;
+    background-color: rgb(216, 213, 213);
+    padding-top: 5vh;
+}
+.footer ul{
+    list-style-type: none;
+}
+.all_list{
+    padding-left: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.reserved_rights{
+    text-align: center;
+    background-color: white;
+    padding: 2vh;
+    position: relative;
+    top: 15vh;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.11);
+}
+
+
+
+@media (max-width: 1000px) {
+    .no_btn{
+        display: none;
+    }
+    nav{
+        width: 100%;
+        max-width: 100%;
+        position: fixed;
+        height: 15vh;
+        color: white;
+        z-index: 1;
+        background-color: white;
+        padding: auto;
+    }
+    .collapse{
+        background-color: white;
+    }
+    .blog_header{
+        font-size: 15vh;
+        text-align: center;
+        position: absolute;
+        top: 17vh;
+        left: 35vw;
+        color: white;
+    }
+}

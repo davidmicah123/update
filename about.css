@@ -1,0 +1,785 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    scroll-behavior: smooth;
+    margin-top: 12vh;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 12vh;
+    color: white;
+    z-index: 1;
+}
+.navbar-brand{
+    font-size: 5vh;
+    font-weight: bolder;
+    padding-left: 3vw;
+    padding-bottom: 2vh;
+    z-index: 2;
+    margin-right: 2vw;
+    color: #0353e7;
+}
+.carousel_img{
+    height: 88vh;
+}
+.branded_text{
+    color: #0353e7;
+}
+/* .navbar{
+    display: flex;
+    height: 15vh;
+    background-color: #5577B4;
+    box-shadow: 3px 3px 5px black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+
+}
+.navbar ul li{
+    padding-left: 3vw;
+    padding-top: 5vh;
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 4vh;
+} */
+
+/* .hero_image{
+    background-image: url('images/crystal1.jpg');
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 5vh;
+} */
+.about_us{
+    font-size: 25vh;
+    color: white;
+    position: relative;
+    left: 23vw;
+    top: 24vh;
+}
+
+/* .brief_intro{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    grid-gap: 1vw;
+} */
+/* .hint_img{
+    width: 30vw;
+}
+.brief_text{
+    font-size: 4vh;
+    text-align: center;
+} */
+
+
+
+
+.about_hint{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    margin-left: 6vw;
+    grid-gap: 3vw;
+    margin-top: 4vh;
+}
+.about_heading{
+    font-size: 4vh;
+}
+.about_img{
+    width: 40vw;
+    height: 60vh;
+}
+.about_card2{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+}
+.grid_lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 40vw;
+}
+.grid_lists li{
+    list-style: none;
+}
+.statistics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 10vw;
+}
+.number_count{
+    color: #0078ca;
+}
+
+
+
+
+
+
+
+
+.our_partners_header{
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    font-size: 7vh;
+    color: #0078ca;
+}
+.our_partners{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10vw;
+    height: 70vh;
+    grid-gap: 3vw;
+    width: 70vw;
+
+}
+.our_partners2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10vw;
+    height: 70vh;
+    grid-gap: 3vw;
+    width: 70vw;
+    position: absolute;
+    top: 345vh;
+    margin-top: 7vh;
+
+}
+.parthership_video1{
+    width: 39vw;
+    height: 70vh;
+}
+.parthership_video2{
+    width: 36.5vw;
+    height: 70vh;
+}
+.partnership_grid2{
+}
+
+
+
+
+
+/*section3 */
+.discover{
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.supercontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 2%;
+    width: 95%;
+    grid-gap: 2%;
+    display: border-box;
+}
+.card1{
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    width: 100%;
+}
+.card2{
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    width: 100%;
+}
+.card3{
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    width: 100%;
+}
+.card1image1{
+    width: 100%;
+    height: 40vh;
+    border-top-right-radius: 1em;
+}
+.card2image1{
+    width: 100%;
+    height: 40vh;
+    border-top-right-radius: 1em;
+}
+.card3image1{
+    width: 100%;
+    height: 40vh;
+    border-top-right-radius: 1em;
+}
+.want{
+    font-size: 3vh;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 15%;
+}
+.did{
+    margin: 10%;
+    margin-top: 5%;
+    font-size: 3vh;
+}
+
+.your{
+    font-size: 3vh;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.last{
+    margin: 10%;
+    margin-top: 5%;
+    font-size: 3vh;
+}
+.how{
+    font-size: 3vh;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.from{
+    margin: 10%;
+    margin-top: 5%;
+    font-size: 3vh;
+}
+.learn{
+    margin-left: 10%;
+    color: #0078ca;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all_services{
+    margin-top: 55vh;
+}
+.services{
+    background: #F8F9FA;
+    padding: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.our_services{
+    text-align: center;
+    font-size: 7vh;
+    padding: 2vh 0;
+}
+.what_we_do{
+    text-align: center;
+    font-size: 5vh;
+    padding: 2vh 0;
+}
+
+.leader_images1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 12.5vw;
+    grid-gap: 5vw;
+    width: 80vw;
+    position: relative;
+    top: 12vh;
+}
+.leader1{
+    width: 10vw;
+    border-radius: 50%;
+}
+.activity_grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin-left: 5vw;
+}
+.activity_grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin-left: 5vw;
+}
+.activity_card_1{
+    width: 25vw;
+    text-align: center;
+    border-radius: 0.2em;
+    border: 1px solid black;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 2vh;
+}
+.growth{
+    font-size: 4vh;
+    color: black;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-top: 10vh;
+}
+.activity_card_text{
+    color: #999999;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    font-size: 3vh;
+}
+.activity_btn{
+    border: 0;
+    padding: 2vh;
+    color: white;
+    border-radius: 0.2em;
+    background: #5577B4;
+}
+.activity_btn:hover{
+    padding: 2.5vh;
+    background-color: #0353e7;
+}
+
+
+
+.help{
+    background-image: url('images/hero_1.jpg');
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 5vh 0;
+}
+.help_text{
+    font-size: 8vh;
+}
+.help_content{
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 35vh;
+}
+.bio{
+    display: flex;
+}
+.testifier{
+    height: 5vh;
+    width: 4vw;
+    border-radius: 50%;
+}
+
+
+
+
+
+.sub{
+    background-image: url("images/crystal2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 3vh;
+    padding: 4vh 0;
+    color: white;
+}
+.email_subscription{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    margin-left: 8vw;
+}
+.email_grid h1{
+    font-size: 4vh;
+}
+.subscribe_text{
+    font-size: 3vh;
+}
+.email_form{
+    position: relative;
+    top: 5vh;
+    left: 3vw;
+}
+.email_input{
+    width: 30vw;
+    height: 6vh;
+}
+.send{
+    width: 9vw;
+    padding: 0.5vh;
+    border: 0;
+    border-radius: 0.2em;
+    background-color: #5577B4;
+    color: white;
+}
+
+
+
+
+
+
+.footer{
+    height: 75vh;
+    background-color: rgb(216, 213, 213);
+    padding-top: 5vh;
+}
+.footer ul{
+    list-style-type: none;
+}
+.all_list{
+    padding-left: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.reserved_rights{
+    text-align: center;
+    background-color: white;
+    padding: 2vh;
+    position: relative;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.11);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    .our_partners2{
+        margin-top: 7vh;
+    }
+    .no_grid{
+        
+    }
+    .our_partners{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10vw;
+        grid-gap: 3vw;
+        width: 70vw;
+    
+    }
+    .services{
+        margin-top: 0;
+    }
+    .collapse{
+        background-color: white;
+        padding: 5vw;
+    }
+}
+
+
+@media (max-width: 870px) {
+    .activity_grid1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        margin-left: 0vw;
+        grid-gap: vw;
+    }
+    .activity_grid2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        margin-left: 0vw;
+        grid-gap: 1vw;
+    }
+    .activity_card_1{
+        width: 30vw;
+        text-align: center;
+        border-radius: 0.2em;
+        border: 1px solid black;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding: 2vh;
+    }
+    /* .no_card{
+        display: none;
+    } */
+}
+
+
+@media (max-width: 800px) {
+    .supercontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 2%;
+        width: 95%;
+        grid-gap: 2%;
+        display: border-box;
+    }
+    .growth{
+        font-size: 3vh;
+    }
+    .activity_card_text{
+        font-size: 2vh;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        width: 100%;
+        max-width: 100%;
+        position: fixed;
+        height: 15vh;
+        color: white;
+        z-index: 1;
+        background-color: white;
+    }
+    .collapse{
+        background-color: white;
+    }
+    .about_hint{
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin-top: 3vh;
+    }
+    .about_img{
+        width: 85vw;
+    }
+    .no_grid{
+        display: none;
+    }
+    .our_partners2{
+        display: none;
+    }
+    .all_services{
+        margin-top: 0;
+    }
+    .our_partners{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10vw;
+        height: 50vh;
+        grid-gap: 3vw;
+        width: 70vw;
+    
+    }
+    .our_partners2{
+        display: none;
+    }
+    .parthership_video1{
+        width: 39vw;
+        height: 70vh;
+    }
+    .parthership_video2{
+        width: 36.5vw;
+        height: 70vh;
+    }
+    .our_partners_header{
+        text-align: center;
+        position: relative;
+        top: 16vh;
+        font-size: 7vh;
+        color: #0078ca;
+    }
+    .leader_images1{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin-left: 17vw;
+        grid-gap: 5vw;
+        width: 80vw;
+        position: relative;
+        top: 10vh;
+    }
+    .special_leader{
+        margin-left: 3vw;
+    }
+    .leader1{
+        width: 10vw;
+        border-radius: 50%;
+    }
+    .activity_grid1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
+        margin-left: 0vw;
+        grid-gap: 1vw;
+    }
+    .activity_grid2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
+        margin-left: 0vw;
+        grid-gap: 1vw;
+    }
+    .activity_card_1{
+        width: 45vw;
+        text-align: center;
+        border-radius: 0.2em;
+        border: 1px solid black;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding: 2vh;
+    }
+    .services{
+        margin-left: 0;
+    }
+    .email_grid h1{
+        font-size: 2vh;
+    }
+    .subscribe_text{
+        font-size: 3vh;
+    }
+    .supercontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 2%;
+        width: 95%;
+        grid-gap: 2%;
+        display: border-box;
+    }
+    .no_card{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .supercontainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 2%;
+        width: 95%;
+        grid-gap: 2%;
+        display: border-box;
+    }
+    .carousel_img{
+        height: 60vh;
+    }
+    .statistics{
+        display: none;
+    }
+    .activity_grid1{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin-left: 0vw;
+        grid-gap: 1vw;
+    }
+    .activity_grid2{
+        display: none;
+    }
+    
+    
+    .activity_card_1{
+        width: 100%;
+        text-align: center;
+        border-radius: 0.2em;
+        border: 1px solid black;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding: 2vh;
+    }
+    .leader_images1{
+        top: 7.5vh;
+        left: 17vw;
+    }
+    .the_five{
+        display: none;
+    }
+    .leader1{
+        width: 15vw;
+    }
+    .not{
+        display: none;
+    }
+    .sub{
+       height: 50vh;
+    }
+    .email_subscription{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80vw;
+        margin-left: 8vw;
+    }
+    .email_grid h1{
+        font-size: 4vh;
+    }
+    .subscribe_text{
+        font-size: 3vh;
+    }
+    .email_form{
+        position: relative;
+        top: 5vh;
+        left: 3vw;
+    }
+    .email_input{
+        width: 55vw;
+        height: 6vh;
+    }
+    .send{
+        width: 12vw;
+        padding: 1vh;
+        border: 0;
+        border-radius: 0.2em;
+        background-color: #5577B4;
+        color: white;
+    }
+
+    .card1{
+
+    }
+    .no_footer{
+        display: none;
+    }
+    .all_list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .activity_card_1{
+        margin-left: 4vw;
+    }
+    .about_heading{
+        font-size: 3vh;
+    }
+}

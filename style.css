@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f4f4f4d7;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #6969dd #e0e0e0;
+}
+.container{
+    margin-left: 20vw;
+    margin-top: 10vh;
+    background-color: white;
+    padding: 3vh;
+    width: 63vw;
+    border-radius: 0.5em;
+}
+.customer_info{
+    margin-top: 1vh;
+    font-weight: normal;
+    font-size: 5vh;
+    text-align: center;
+}
+.shopping_address{
+    margin-top: 1vh;
+    margin-bottom:  vh;
+    font-size: 5vh;
+}
+.email_address{
+    width: 59vw;
+    height: 7vh;
+    border-radius: 0.3em;
+    padding-left: 1vw;
+    margin: 1vh;
+}
+.first_name{
+    width: 29vw;
+    height: 7vh;
+    border-radius: 0.3em;
+    padding-left: 1vw;
+    margin: 1vh;
+}
+.last_name{
+    width: 28.55vw;
+    height: 7vh;
+    margin-left: 2vw;
+    border-radius: 0.3em;
+    padding-left: 1vw;
+    margin: 1vh;
+}
+.company{
+    width: 59vw;
+    height: 7vh;
+    border-radius: 0.3em;
+    padding-left: 1vw;
+    margin: 1vh;
+}
+.address{
+    width: 59vw;
+    height: 7vh;
+    border-radius: 0.3em;
+    padding-left: 1vw;
+    margin: 1vh;
+}
+.appartment{
+    width: 59vw;
+    height: 7vh;
+    border-radius: 0.3em;
+    padding-left: 1vw;
+    margin: 1vh;
+}
+.zipcode{
+    width: 18.2vw;
+    height: 7vh;
+    border-radius: 0.3em;
+    padding-left: 1vw;
+    margin: 1vh;
+}
+.city{
+    width: 19vw;
+    height: 7vh;
+    border-radius: 0.3em;
+    padding-left: 1vw;
+    margin: 1vh;
+    margin-left: 0.5vw;
+}
+.state{
+    width: 19vw;
+    height: 7vh;
+    border-radius: 0.3em;
+    padding-left: 1vw;
+    margin: 1vh;
+}
+.phone_number{
+    width: 59vw;
+    height: 7vh;
+    border-radius: 0.3em;
+    padding-left: 1vw;
+    margin: 1vh;
+}
+.country{
+    width: 59vw;
+    height: 7vh;
+    border-radius: 0.3em;
+    padding-left: 1vw;
+    margin: 1vh;
+    border: 2px solid black;
+}
+
+
+.submit{
+    padding: 1vh;
+    background-color: rgb(29, 116, 202);
+    border: 0;
+    border-radius: 0.3em;
+    width: 60vw;
+    margin-left: 0.5vw;
+    color: white;
+    font-size: 4vh;
+    font-weight: normal;
+    min-height: 7vh;
+    transition: 1s all;
+    margin-top: 1vh;
+}
+.submit:hover{
+    background-color: rgba(29, 116, 202, 0.774);
+}
+.agreement_box{
+    padding-top: 1vh;
+    margin-left: 0.5vw;
+    margin-right: 0.3vw;
+}
+.agreement_text{
+    font-size: 3vh;
+}
+.strict{
+    color: green;
+    text-decoration: underline;
+
+}
+
+
+
+.accordion{
+    background-color: white;
+    width: 60vw;
+}

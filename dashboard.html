@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Study Assistant</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+              Blog
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="blog.html">sport</a></li>
+              <li><a class="dropdown-item" href="food.html">Food/Fruit</a></li>
+              <li><a class="dropdown-item" href="rest.html">Rest</a></li>
+              <li><a class="dropdown-item" href="game.html">Game</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">A Drift To Success</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="speach.html">Text-To-Voice</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="test.html">Word-Counter</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="dashboard.html">Time-Table</a>
+        </li>
+
+        </ul>
+        
+      </div>
+    </nav>
+    
+
+    <table class="all_timetable">
+        <tr>
+            <th colspan="8" class="timetable">TIMETABLE</th>
+        </tr>
+        <tr>
+            <td class="days monday">MONDAY</td>
+            <td id="monday_subject1">DEFAULT</td>
+            <td id="monday_subject2" >DEFAULT</td>
+            <td id="monday_subject3">DEFAULT</td>
+            <td id="monday_subject4">DEFAULT</td>
+            <td id="monday_subject5">DEFAULT</td>
+        </tr>
+        <tr>
+            <td class="days tuesday">TUESDAY</td>
+            <td id="tuesday_subject1">DEFAULT</td>
+            <td id="tuesday_subject2">DEFAULT</td>
+            <td id="tuesday_subject3">DEFAULT</td>
+            <td id="tuesday_subject4">DEFAULT</td>
+            <td id="tuesday_subject5">DEFAULT</td>
+        </tr>
+        <tr>
+            <td class="days tuesday">WEDNESDAY</td>
+            <td id="wednesday_subject1">DEFAULT</td>
+            <td id="wednesday_subject2">DEFAULT</td>
+            <td id="wednesday_subject3">DEFAULT</td>
+            <td id="wednesday_subject4">DEFAULT</td>
+            <td id="wednesday_subject5">DEFAULT</td>
+        </tr>
+        <tr>
+            <td class="days tuesday">THURSDAY</td>
+            <td id="thursday_subject1">DEFAULT</td>
+            <td id="thursday_subject2">DEFAULT</td>
+            <td id="thursday_subject3">DEFAULT</td>
+            <td id="thursday_subject4">DEFAULT</td>
+            <td id="thursday_subject5">DEFAULT</td>
+        </tr>
+        <tr>
+            <td class="days tuesday">FRIDAY</td>
+            <td id="friday_subject1">DEFAULT</td>
+            <td id="friday_subject2">DEFAULT</td>
+            <td id="friday_subject3">DEFAULT</td>
+            <td id="friday_subject4">DEFAULT</td>
+            <td id="friday_subject5">DEFAULT</td>
+        </tr><tr>
+            <td class="days tuesday">SATURDAY</td>
+            <td id="saturday_subject1">DEFAULT</td>
+            <td id="saturday_subject2">DEFAULT</td>
+            <td id="saturday_subject3">DEFAULT</td>
+            <td id="saturday_subject4">DEFAULT</td>
+            <td id="saturday_subject5">DEFAULT</td>
+        </tr><tr>
+            <td class="days tuesday">SUNDAY</td>
+            <td id="sunday_subject1">DEFAULT</td>
+            <td id="sunday_subject2">DEFAULT</td>
+            <td id="sunday_subject3">DEFAULT</td>
+            <td id="sunday_subject4">DEFAULT</td>
+            <td id="sunday_subject5">DEFAULT</td>
+        </tr>
+      </table>
+      <div class="modification">
+        <button class="modify_monday">Modify Monday</button><br>
+        <button class="modify_tuesday">Modify Tuesday</button><br>
+        <button class="modify_wednesday">Modify Wednesday</button><br>
+        <button class="modify_thursday">Modify Thursday</button><br>
+        <button class="modify_friday">Modify Friday</button><br>
+        <button class="modify_saturday">Modify Saturday</button><br>
+        <button class="modify_sunday">Modify Sunday</button><br>
+    
+
+      </div>
+
+
+
+
+
+
+    <script src="dashboard.js"></script>
+
+
+    <script src="jquery.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>

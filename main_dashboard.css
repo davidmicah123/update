@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin-bottom: 500vh;
+}
+.navbar{
+    height: 12vh;
+    position: fixed;
+    width: 100%;
+}
+.sidebar{
+    width: 20vw;
+    height: 88vh;
+    background-color: blue;
+    position: fixed;
+    margin-top: 12vh;
+    
+}
+.profile_pic_paragraph{
+    text-align: center;
+    padding-top: 2vh;
+}
+.profile_pic{
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50%;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+.username{
+    color: white;
+    font-size: 3vh;
+}
+.time_table_btn{
+    border: 0;
+    width: 20vw;
+    height: 5vh;
+}
+.text_to_voice{
+    border: 0;
+    width: 20vw;
+    height: 5vh;
+    margin-top: .5vh;
+}
