@@ -6,6 +6,7 @@ const to_count1_el = document.getElementById("number_count1");
 let current1 = 0;
 
 const interval1 = setInterval(() => {
+    console.log("yes , i am new")
     current1 = current1 + (((to_count1 - current1) >= 39) ? 39 : to_count1 - current1);
     to_count1_el.innerHTML = current1;
     if(current1 == to_count1) clearInterval(interval1);
